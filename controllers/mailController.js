@@ -34,7 +34,7 @@ const sendMail = async (dataArray) => {
         name: "Mehul Jain",
         address: process.env.SMTP_SENDER_EMAIL,
       },
-      to: "mehuljain0503@gmail.com",
+      to: "info@redpositive.in",
       subject: "Your Required Data",
       html: `
                 <!DOCTYPE html>
